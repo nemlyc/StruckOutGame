@@ -1,0 +1,32 @@
+{
+  "actions": [
+    {
+      "name": "/actions/VRThrow/in/grab",
+      "type": "boolean",
+      "requirement": "mandatory"
+    },
+    {
+      "name": "/actions/VRThrow/in/reset",
+      "type": "boolean",
+      "requirement": "mandatory"
+    },
+    {
+      "name": "/actions/VRThrow/in/pose",
+      "type": "pose",
+      "requirement": "mandatory"
+    }
+  ],
+  "action_sets": [
+    {
+      "name": "/actions/VRThrow",
+      "usage": "single"
+    }
+  ],
+  "default_bindings": [
+    {
+      "controller_type": "oculus_touch",
+      "binding_url": "application_generated_unity_vrthrow_exe_binding_oculus_touch.json"
+    }
+  ],
+  "localization": []
+}
