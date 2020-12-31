@@ -75,3 +75,7 @@ InitTestScene*.unity
 
 App/
 unityProject.vrmanifest
+Assets/SteamVR
+Assets/SteamVR.meta
+Assets/TextMesh Pro
+Assets/TextMesh Pro.meta
